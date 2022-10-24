@@ -26,10 +26,8 @@ When option 1 is selected, we will use the scan function in order to allow the u
 Then we will throw the number in a if else statement to determine whether the number is greater than or lesser than the given number
 This will go into a do while loop so the user can keep guessing until they can guess the number correctly
 When the user enters q, then it should jump out of the while loop and go back to the main menu
-
 When option 2 is selected, the user can set the max number, the set number will change to that new number
 We will checkIntegrity and checkMaximum in order to see if the number is valid
-
 When option 3 is chosen, the game will quit
 */
 
@@ -68,6 +66,7 @@ int main() {
         case 1:
             //game method
             game();
+            break;
         //case 2 changes the max value
         case 2:
 
